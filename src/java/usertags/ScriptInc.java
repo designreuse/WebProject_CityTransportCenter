@@ -39,8 +39,9 @@ public class ScriptInc extends SimpleTagSupport {
             out.println("<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->");
             out.println("<script src=\"./styles/js/jquery-2.1.4.min.js\"></script>");
             out.println("<!-- Include all compiled plugins (below), or include individual files as needed -->");
-            out.println("<script src=\"/MyWebApp/styles/js/bootstrap.min.js\"></script>");
-
+            out.println("<script src=\"/WebApp/styles/js/bootstrap.min.js\"></script>");
+            out.println("<!-- Include custom JS handelr for 'alert-dissmissable' elements -->");
+            out.println("<script src=\"/WebApp/styles/js/alert-dissmissable.js\"></script>");
             // TODO: insert code to write html after writing the body content.
             // e.g.:
             //
